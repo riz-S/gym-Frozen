@@ -1,3 +1,5 @@
+from gym.envs.registration import register
+
 register(
     id='FrozenLake8x6-v0',
     entry_point='gym_frozen.envs:FrozenLakeEnv',
