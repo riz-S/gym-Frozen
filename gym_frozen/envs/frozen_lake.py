@@ -4,7 +4,9 @@ from contextlib import closing
 import numpy as np
 from io import StringIO
 
+from gym import error, spaces
 from gym import utils
+from gym.utils import seeding
 from gym.envs.toy_text import discrete
 
 LEFT = 0
